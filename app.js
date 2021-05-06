@@ -14,7 +14,7 @@ export default (express, bodyParser, fs, crypto, http) => {
     .use(bodyParser.json())
 
     .all('/login/', (req, res) => {
-        res.end("nikird");
+        res.end("yaazzik");
     })
 
     .all('/code/', (req, res) => {
